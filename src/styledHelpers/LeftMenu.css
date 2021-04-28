@@ -1,0 +1,18 @@
+.FlexEnd{
+    border: 1.5px solid grey;
+    padding: 2px;
+    border-radius: 25%;
+}
+
+.smallerIMG{
+    width: 15px;
+    height: 15px;
+}
+
+.left{
+    margin-right: 20px;
+}
+
+.antyLink{
+text-decoration: none;
+}

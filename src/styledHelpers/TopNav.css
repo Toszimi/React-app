@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 30px;
+    cursor: pointer;
+}
+
+.HouseSvg{
+    justify-self: flex-start;
+    margin-right: auto;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Menu{
+    position: absolute;
+    left: 110px;
+}
+
+.Menu img{
+    position: absolute;
+    left: 150px;
+}
+
+.Circle1{
+    right: 58px;
+}
+
+.Circle2{
+    right: 20px;
+}
+
+.Circle1, .Circle2{
+    position: absolute;
+    top: 4px;
+    height: 32px;
+    width: 32px;
+    background-color: rgba(128, 128, 128, 0.349);
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.smallCircle1{
+    right: 56px;
+}
+
+.smallCircle2{
+    right: 19px;
+}
+
+.smallCircle1, .smallCircle2{
+    position: absolute;
+    height: 8px;
+    width: 12px;
+    color: white;
+    background-color: royalblue;
+    top: 4px;
+    border-radius: 30%;
+    font-size: 7px;
+    text-align: center;
+    line-height: 8px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 320px;
+    text-align: center;
+}
+
+.search img{
+    margin-left: 5px;
+}
